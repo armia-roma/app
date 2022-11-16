@@ -1,15 +1,13 @@
 import React from "react";
-import { View } from "react-native";
-import AppButton from "../components/AppButton";
+import { View, Text } from "react-native";
+import Card from "./../components/Card";
+import ListingDetailsScreen from "./ListingDetailsScreen";
+import ViewImageScreen from "./ViewImageScreen";
+import MessagesScreen from "./MessagesScreen";
 function TestPage() {
-    return (
-        <View style={{
-            flex: 1,
-            justifyContent: "center",
-            alignItems:  "center"
-        }}>  
-            <AppButton title="login" onPress={() => console.log("Press")}/>
-        </View>
-    )
+    return <MessagesScreen/>
 }
+
 export default TestPage;
+// return <ListingDetailsScreen />
+// return <ViewImageScreen></ViewImageScreen>

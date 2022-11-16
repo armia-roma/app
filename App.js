@@ -6,6 +6,6 @@ import WelcomeScreen from "./app/screen/WelcomeScreen";
 
 export default function App() {
     // return <TestPage />
-    return <WelcomeScreen></WelcomeScreen>
+    return <TestPage></TestPage>
     
 }
